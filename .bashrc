@@ -1,3 +1,4 @@
+alias artisan="php artisan"
 alias tinker="php artisan tinker"
 
 alias c="composer"
