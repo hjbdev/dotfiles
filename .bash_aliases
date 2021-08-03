@@ -8,6 +8,7 @@ alias ci="composer install"
 alias cid="composer install --dev"
 alias cr="composer require"
 alias cu="composer update"
+alias crm="composer remove"
 
 # General Bash
 alias l="ls -laF"
