@@ -4,6 +4,8 @@ alias tinker="php artisan tinker"
 
 # Composer
 alias c="composer"
+alias cgr="composer global require"
+alias cgrm="composer global remove"
 alias ci="composer install"
 alias cid="composer install --dev"
 alias cr="composer require"
