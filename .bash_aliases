@@ -27,3 +27,6 @@ alias yh="yarn hot"
 alias yp="yarn production"
 alias yr="yarn remove"
 alias yw="yarn watch"
+
+# Laragon
+alias laragon-reload="/c/laragon/laragon.exe reload"
