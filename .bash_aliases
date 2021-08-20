@@ -9,6 +9,7 @@ alias cgrm="composer global remove"
 alias ci="composer install"
 alias cid="composer install --dev"
 alias cr="composer require"
+alias crd="composer require --dev"
 alias cu="composer update"
 alias crm="composer remove"
 
