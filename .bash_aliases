@@ -1,6 +1,7 @@
 # Artisan
 alias artisan="php artisan"
 alias tinker="php artisan tinker"
+alias mfs="php artisan migrate:fresh --seed"
 
 # Composer
 alias c="composer"
