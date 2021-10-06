@@ -1,0 +1,10 @@
+function proj() {
+    if [ -z "$1" ]; then
+        echo "Provide a project name";
+        return;
+    fi
+
+    if [ "$1" == "test" ] || [ "$1" == "teamleaf" ]; then
+        cd ~/Sites/test || return;
+    fi
+}
