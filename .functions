@@ -4,7 +4,7 @@ function proj() {
         return;
     fi
 
-    if [ "$1" == "test" ] || [ "$1" == "teamleaf" ]; then
+    if [ "$1" == "test" ] || [ "$1" == "test" ]; then
         cd ~/Sites/test || return;
     fi
 }
