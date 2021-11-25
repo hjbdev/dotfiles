@@ -19,6 +19,7 @@ alias l="ls -laF"
 
 # Yarn
 alias y="yarn"
+alias yu="yarn upgrade"
 alias ya="yarn add"
 alias yad="yarn add -D"
 alias yb="yarn build"
@@ -29,6 +30,20 @@ alias yh="yarn hot"
 alias yp="yarn production"
 alias yr="yarn remove"
 alias yw="yarn watch"
+
+# pnpm
+alias p="pnpm"
+alias pu "pnpm update"
+alias pa="pnpm add"
+alias pad="pnpm add -D"
+alias pb="pnpm build"
+alias pd="pnpm dev"
+alias pga="pnpm add --global"
+alias pgr="pnpm remove --global"
+alias ph="pnpm hot"
+alias pp="pnpm production"
+alias pr="pnpm remove"
+alias pw="pnpm watch"
 
 # Laragon
 alias laragon-reload="/c/laragon/laragon.exe reload"
