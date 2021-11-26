@@ -33,6 +33,7 @@ alias yw="yarn watch"
 
 # pnpm
 alias p="pnpm"
+alias pi="pnpm install"
 alias pu="pnpm update"
 alias pa="pnpm add"
 alias pad="pnpm add -D"
