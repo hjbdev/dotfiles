@@ -8,3 +8,22 @@ function proj() {
         cd ~/Sites/test || return;
     fi
 }
+
+function bloody() {
+    if [ -z "$1" ]; then
+        echo "Provide a command";
+        return;
+    fi
+
+    if [ "$1" == "cache" ]; then
+        artisan cache:clear || return;
+    fi
+
+    if [ "$1" == "migrations" ]; then
+        artisan migrate:fresh --seed || return;
+    fi
+
+    if [ "$1" == "hell" ]; then
+        echo "AAARRRRGHHHH" || return;
+    fi
+}
