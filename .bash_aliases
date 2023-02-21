@@ -4,6 +4,9 @@ alias at="php artisan tinker"
 alias acc="php artisan cache:clear"
 alias mfs="php artisan migrate:fresh --seed"
 
+# Sail
+alias sail="./vendor/bin/sail"
+
 # Composer
 alias c="composer"
 alias cgr="composer global require"
