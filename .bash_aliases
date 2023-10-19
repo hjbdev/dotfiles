@@ -6,6 +6,20 @@ alias mfs="php artisan migrate:fresh --seed"
 
 # Sail
 alias sail="./vendor/bin/sail"
+alias sc="sail composer"
+alias sa="sail artisan"
+alias sy="sail yarn"
+alias sb="sail bun"
+alias sba="sail bun add"
+alias sbad="sail bun add -D"
+alias sbrm="sail bun remove"
+alias sbrd="sail bun run dev"
+alias sbrb="sail bun run build"
+alias scr="sail composer require"
+alias scrd="sail composer require --dev"
+alias st="sail tinker"
+alias sam="sail artisan migrate"
+alias samfs="sail artisan migrate:fresh --seed"
 
 # Composer
 alias c="composer"
@@ -28,12 +42,7 @@ alias ya="yarn add"
 alias yad="yarn add -D"
 alias yb="yarn build"
 alias yd="yarn dev"
-alias yga="yarn global add"
-alias ygr="yarn global remove"
-alias yh="yarn hot"
-alias yp="yarn production"
 alias yr="yarn remove"
-alias yw="yarn watch"
 
 # pnpm
 alias p="pnpm"
@@ -43,12 +52,16 @@ alias pa="pnpm add"
 alias pad="pnpm add -D"
 alias pb="pnpm build"
 alias pd="pnpm dev"
-alias pga="pnpm add --global"
-alias pgr="pnpm remove --global"
-alias ph="pnpm hot"
-alias pp="pnpm production"
 alias pr="pnpm remove"
-alias pw="pnpm watch"
 
-# Laragon
-alias laragon-reload="/c/laragon/laragon.exe reload"
+# bun
+alias b="bun"
+alias ba="bun add"
+alias bad="bun add -D"
+alias bi="bun install"
+alias brd="bun run dev"
+alias brb="bun run build"
+alias brm="bun remove"
+
+# composer bin
+export PATH=~/.composer/vendor/bin:$PATH
