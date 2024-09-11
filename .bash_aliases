@@ -4,23 +4,6 @@ alias at="php artisan tinker"
 alias acc="php artisan cache:clear"
 alias mfs="php artisan migrate:fresh --seed"
 
-# Sail
-alias sail="./vendor/bin/sail"
-alias sc="sail composer"
-alias sa="sail artisan"
-alias sy="sail yarn"
-alias sb="sail bun"
-alias sba="sail bun add"
-alias sbad="sail bun add -D"
-alias sbrm="sail bun remove"
-alias sbrd="sail bun run dev"
-alias sbrb="sail bun run build"
-alias scr="sail composer require"
-alias scrd="sail composer require --dev"
-alias st="sail tinker"
-alias sam="sail artisan migrate"
-alias samfs="sail artisan migrate:fresh --seed"
-
 # Composer
 alias c="composer"
 alias cgr="composer global require"
