@@ -18,25 +18,6 @@ alias crm="composer remove"
 # General Bash
 alias l="ls -laF"
 
-# Yarn
-alias y="yarn"
-alias yu="yarn upgrade"
-alias ya="yarn add"
-alias yad="yarn add -D"
-alias yb="yarn build"
-alias yd="yarn dev"
-alias yr="yarn remove"
-
-# pnpm
-alias p="pnpm"
-alias pi="pnpm install"
-alias pu="pnpm update"
-alias pa="pnpm add"
-alias pad="pnpm add -D"
-alias pb="pnpm build"
-alias pd="pnpm dev"
-alias pr="pnpm remove"
-
 # bun
 alias b="bun"
 alias ba="bun add"
@@ -45,6 +26,3 @@ alias bi="bun install"
 alias brd="bun run dev"
 alias brb="bun run build"
 alias brm="bun remove"
-
-# composer bin
-export PATH=~/.composer/vendor/bin:$PATH
